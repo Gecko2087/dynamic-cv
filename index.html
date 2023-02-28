@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="robots" content="nofollow,noindex">
+
+        <!-- Open Graph -->
+        <meta property="og:title" content="CV Online">
+        <meta property="og:descripcion" content="Proyecto Final CV - Argentina Programa 4.0 - Ticmas">
+        <meta property="og:url" content="https://github.com/Gecko2087/cv-online.git">
+
+        <title>Curriculum Vitae</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script rel="javascript" src="scripts/actions.js" defer></script>
+
+        <!-- Google Icons -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    </head>
+  
+  <div class="container mt-">
+    <div class="row">
+      <div class="col-md-4">
+        <button onclick="reload();" id="reload-page" class="reload"><span class="material-symbols-rounded">refresh</span></span></button>
+        <div class="profile text-center mb-5">
+          <img src="" alt="Foto de Perfil" id="picture" class="profile-image img-fluid rounded-circle">
+          <h2 class="name mt-3 mb-0"></h2>
+          <h1><span id="fullname" class="last-name"></span></h1>
+        </div>
+        
+        <div class="info border p-4">
+          <h3 class="text-primary">Información Personal</h3>
+          <ul class="list-unstyled">
+            <li></li>
+            <li><strong>Edad:</strong> <span id="age" class="age"></span></li>
+            <li><strong>Email:</strong> <span id="email" class="email"></span></li>
+            <li><strong>Teléfono:</strong> <span id="phone" class="phone"></span></li>
+            <li><strong>País:</strong> <span id="country" class="country"></span></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="col-md-8">
+        <div class="summary border p-4 mb-5">
+          <h3 class="text-primary"><span class="material-symbols-rounded">resume</span> Resumen Profesional</h3>
+          <p class="mb-0">Soy un desarrollador web con experiencia en HTML, CSS, JavaScript y Bootstrap. Me apasiona crear sitios web elegantes y funcionales que permitan a las empresas a alcanzar sus objetivos en línea.</p>
+        </div>
+        
+        <div class="education border p-4 mb-5">
+          <h3 class="text-primary"><span class="material-symbols-rounded">school</span> Educación</h3>
+          <ul class="list-unstyled">
+            <li><strong>Universidad de Ejemplo</strong>, Licenciatura en Informática, 2010-2014</li>
+            <li><strong>Certificación de Desarrollo Web</strong>, Plataforma de Aprendizaje en Línea, 2015</li>
+          </ul>
+        </div>
+        
+        <div class="experience border p-4 mb-5">
+          <h3 class="text-primary"><span class="material-symbols-rounded">work</span> Experiencia Laboral</h3>
+          <ul class="list-unstyled">
+            <li>
+              <strong>Empresa Ejemplo</strong>, Desarrollador Web, 2015-2018<br>
+              Desarrollé y mantuve sitios web para clientes utilizando HTML, CSS, JavaScript y WordPress. También participé en proyectos de desarrollo de aplicaciones web personalizadas utilizando Django y Ruby on Rails.
+            </li>
+            <li>
+                <strong>Empresa de Diseño Creativo</strong>, Diseñador Gráfico, 2013-2015<br>
+                Diseñé logotipos y materiales gráficos para clientes en una variedad de industrias, incluyendo alimentos y bebidas, moda y tecnología.
+              </li>
+            </ul>
+          </div>
+          
+          <div class="skills border p-4 mb-5">
+            <h3 class="text-primary"><span class="material-symbols-rounded">task_alt</span> Habilidades Técnicas</h3>
+            <ul class="list-unstyled">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Bootstrap</li>
+              <li>WordPress</li>
+              <li>Django</li>
+              <li>Ruby on Rails</li>
+            </ul>
+          </div>
+          
+          <div class="languages border p-4 mb-5">
+            <h3 class="text-primary"><span class="material-symbols-rounded">language</span> Idiomas</h3>
+            <ul class="list-unstyled">
+              <li>Español (Nativo)</li>
+              <li>Inglés (Intermedio)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p>Lucas Nieto - 2023 &copy;</p>
+      </footer>
+    </div>
+    
+    <button onclick="topFunction()" id="myBtn" title="Volver arriba">&#8593;</button>
+  </body>
+  </html>  
