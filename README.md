@@ -1,6 +1,6 @@
 📄 CV Online
 
-<img width="1920" height="1567" alt="image" src="https://github.com/user-attachments/assets/5ee99c99-7268-402c-8ea2-2a6608d8245b" />
+<img width="1280" height="1440" alt="image" src="https://github.com/user-attachments/assets/5ee99c99-7268-402c-8ea2-2a6608d8245b" />
 
 Proyecto de Currículum Vitae Online interactivo, desarrollado como muestra de habilidades en desarrollo web frontend. La aplicación muestra un CV moderno y responsive con datos personales cargados dinámicamente desde la API de RandomUser.
 
@@ -39,7 +39,7 @@ Diseño adaptativo (desktop y mobile).
 
 Clonar el repositorio:
 
-git clone https://github.com/tuusuario/cv-online.git
+git clone https://github.com/Gecko2087/dynamic-cv.git
 
 
 Abrir index.html en el navegador.
@@ -88,7 +88,7 @@ Mobile-first, responsive design.
 
 Clone the repo:
 
-git clone https://github.com/yourusername/cv-online.git
+git clone https://github.com/Gecko2087/dynamic-cv.git
 
 
 Open index.html in your browser.
